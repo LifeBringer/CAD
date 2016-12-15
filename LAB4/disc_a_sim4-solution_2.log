@@ -1,0 +1,105 @@
+NX Nastran V8.5 (Intel64 Family 6 Model 58 Stepping 9 Windows 7 Service Pack 1) Control File:
+-------------------------------------------------------------------
+Nastran BUFFSIZE=8193 $(c:/program files/siemens/nx 8.5/nxnastran/conf/nast8.rcf[2])
+Nastran DIAGA=128 DIAGB=0 $(c:/program files/siemens/nx 8.5/nxnastran/conf/nast8.rcf[6])
+Nastran SYSTEM(442)=1 $(command line[5])
+Nastran REAL=2082471936 $(program default)
+JID='C:\Users\100398864\Documents\UOIT\Concurrent Engineering Design\Lab\LAB4\disc_a_sim4-solution_2.dat'
+OUT='./disc_a_sim4-solution_2'
+MEM=26214400
+MACH='Intel64 Family 6 Model 58 Stepping 9'
+OPER='Windows 7'
+OSV='Service Pack 1'
+MODEL='Intel(R) Core(TM) i5-3380M CPU @ 2.90GHz (UOSL13-R9ZGTMY)'
+CONFIG=8666
+NPROC=4
+symbol=DELDIR='c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/nast/del' $(program default)
+symbol=DEMODIR='c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/nast/misc/sssalter' $(program default)
+symbol=TPLDIR='c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/nast/tpl' $(program default)
+SDIR='c:/users/100398~1/appdata/local/temp/disc_a_sim4-solution_2.T2180_55'
+DBS='c:/users/100398~1/appdata/local/temp/disc_a_sim4-solution_2.T2180_55'
+SCR=yes
+NEWDEL='c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/em64tnt/SSS'
+DEL='NXNDEF'
+AUTH='28000@205.211.181.75'
+AUTHQUE=0
+MSGCAT='c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/em64tnt/analysis.msg'
+MSGDEST='f06'
+PROG=bundle
+NEWS='c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/nast/news.txt'
+-------------------------------------------------------------------
+NXN_ISHELLPATH=C:\Program Files\Siemens\NX 8.5\nxnastran\bin
+NXN_JIDPATH=
+PATH=c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/em64tnt;c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/em64tnt/mpi/bin;C:\Program Files\Siemens\NX 8.5\ugii;C:\MSC.Software\Patran_x64\20121\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\MATLAB\R2013a\runtime\win64;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\SASHome\Secure;C:\Program Files\SASHome\x86\Secure;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\
+Command Line: disc_a_sim4-solution_2.dat prog=bundle old=no scratch=yes sys442=1
+Current Dir: C:\Users\100398864\Documents\UOIT\Concurrent Engineering Design\Lab\LAB4
+Executable:  c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/em64tnt/analysis.exe
+NXN_MSG:     stderr
+FPE:         no
+-------------------------------------------------------------------
+Current resource limits:
+ Physical memory:                     7956 MB
+ Physical memory available:           3527 MB
+ Paging file size:                   15911 MB
+ Paging file size available:         10568 MB
+ Virtual memory:                   8388607 MB
+ Virtual memory available:         8388555 MB
+-------------------------------------------------------------------
+System configuration:
+ Hostname:         UOSL13-R9ZGTMY.oncampus.local
+ Architecture:     em64tnt
+ Platform:         Intel64 Family 6 Model 58 Stepping 9 Windows 7 Service Pack 1
+ Model:            Intel(R) Core(TM) i5-3380M CPU @ 2.90GHz
+ Clock freq.:      2893 MHz
+ Number of CPUs:   4
+ Executable:       standard
+ Raw model ID:     8666
+ Config number:    8666
+ Physical memory:  7956 MB
+ Virtual memory:   15911 MB
+ Numeric format:   32-bit little-endian IEEE.
+ Bytes per word:   4
+ Disk block size:  512 bytes (128 words)
+ Remote shell cmd: "c:/program files/siemens/nx 8.5/nxnastran/nxn8p5/em64tnt/edsrmtcmd.exe" (Windows, UNIX)
+-------------------------------------------------------------------
+NX Nastran started  Wed Oct 30 12:17:56 EDT 2013
+ 12:17:56  Beginning Analysis
+
+ 12:17:56  NX NASTRAN Authorization Information - System Attributes
+ 12:17:56  --------------------------------------------------------
+ 12:17:56  Model: Intel(R) Core(TM) i5-3380M CPU @
+ 12:17:56  Machine: Intel64 Family 6 Model 58 Steppi
+ 12:17:56  OS: Windows 7
+ 12:17:56  Version: Service Pack 1
+ 12:17:56  License File(s): 28000@205.211.181.75
+
+
+ 12:17:56  NX NASTRAN Licensing Information
+ 12:17:56  -------------------------------
+ 12:17:56  Sold To ID:            1172316 - UNIVERSITY OF ONTARIO
+ 12:17:56  Webkey Access Code:    94GU57DD8W
+ 12:17:56  License File Issuer:   SIEMENS
+
+
+ 12:17:56  NX NASTRAN Authorization Information - Checkout Successful
+ 12:17:56  ----------------------------------------------------------
+ 12:17:56  License for module NX Nastran Basic - NX Desktop (Bundle)  checked out successfully
+
+ 12:17:57  Analysis started.
+ 12:17:57  Geometry access/verification to CAD part initiated (if needed).
+ 12:17:57  Geometry access/verification to CAD part successfully completed (if needed).
+ 12:17:57  Finite element model generation started.
+ 12:17:58  Finite element model generated 49164 degrees of freedom.
+ 12:17:58  Finite element model generation successfully completed.
+ 12:17:58  Application of Loads and Boundary Conditions to the finite element model started.
+ 12:17:58  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 12:18:01  Solution of the system equations for linear statics started.
+ 12:18:01  Solution of the system equations for linear statics successfully completed.
+ 12:18:02  Linear static analysis completed.
+ 12:18:02  NSEXIT: EXIT(0)
+ 12:18:02  Analysis complete  0
+Real:        6.376 seconds ( 0:00:06.376)
+User:        4.758 seconds ( 0:00:04.758)
+Sys:         1.076 seconds ( 0:00:01.076)
+NX Nastran finished Wed Oct 30 12:18:02 EDT 2013

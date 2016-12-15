@@ -1,0 +1,67 @@
+
+*** 11:21:31 *** 
+Starting Nastran Exporter
+
+*** 11:21:31 *** 
+Writing file C:\Users\100398864\Documents\UOIT\Concurrent Engineering 
+Design\Lab\LAB4\disc_a_sim1-solution_1.dat
+ 
+*** 11:21:31 *** 
+Writing NX NASTRAN 8.5 compatible deck
+
+*** 11:21:31 *** 
+Writing Nastran System section
+
+*** 11:21:31 *** 
+Writing File Management section
+
+*** 11:21:31 *** 
+Writing Executive Control section
+
+*** 11:21:31 *** 
+Writing Case Control section
+
+*** 11:21:31 *** 
+Writing Bulk Data section
+
+*** 11:21:31 *** 
+Writing Nodes
+
+*** 11:21:31 *** 
+Writing Elements
+
+*** 11:21:32 *** 
+Writing Physical Properties
+
+*** 11:21:32 *** 
+Writing Materials
+
+*** 11:21:32 *** 
+Writing Degree-of-Freedom Sets
+
+*** 11:21:32 *** 
+Writing Loads and Constraints
+
+*** 11:21:32 *** 
+Writing Coordinate Systems
+
+*** 11:21:32 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CTETRA   | 1320     |
+| FORCE    | 88       |
+| GRID     | 2631     |
+| MAT1     | 1        |
+| MATT1    | 1        |
+| PARAM    | 5        |
+| PSOLID   | 1        |
+| SPC      | 84       |
+| TABLEM1  | 3        |
++----------+----------+
+
+*** 11:21:32 *** 
+Nastran Deck Successfully Written
+
